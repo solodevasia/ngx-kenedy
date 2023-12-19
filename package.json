@@ -1,0 +1,45 @@
+{
+  "name": "ngx-kenedy",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "author": {
+    "name": "Kenedy Nopriansyah",
+    "email": "kenedinovriansyah@gmail.com",
+    "url": "https://www.linkedin.com/in/kenedy-nopriansyah-b5864a200/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solodevasia/ngx-kenedy.git",
+    "directory": "src"
+  },
+  "engines": {
+    "node": "v20.10.0",
+    "npm": "10.2.3"
+  },
+  "engineStrict": true,
+  "sideEffects": false,
+  "module": "fesm2022/ngx-kenedy.mjs",
+  "typings": "index.d.ts",
+  "keywords": [
+    "kenedy-autcomplx"
+  ],
+  "license": "Open Source",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-kenedy.mjs",
+      "esm": "./esm2022/ngx-kenedy.mjs",
+      "default": "./fesm2022/ngx-kenedy.mjs"
+    }
+  }
+}
+
